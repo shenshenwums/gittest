@@ -4,6 +4,10 @@
 		"description": "11",
 		"nbformat": 4,
 		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "shewtestsppool1",
+			"type": "BigDataPoolReference"
+		},
 		"sessionProperties": {
 			"driverMemory": "28g",
 			"driverCores": 4,
@@ -18,8 +22,27 @@
 		},
 		"metadata": {
 			"saveOutput": true,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
 			"language_info": {
 				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/be3e6d5c-f54f-474d-ae7e-128a5af5a691/resourceGroups/rgcicdbugbash/providers/Microsoft.Synapse/workspaces/shew1117test1/bigDataPools/shewtestsppool1",
+				"name": "shewtestsppool1",
+				"type": "Spark",
+				"endpoint": "https://shew1117test1.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/shewtestsppool1",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "2.4",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"automaticScaleJobs": false
 			},
 			"sessionKeepAliveTimeout": 30
 		},
@@ -29,7 +52,7 @@
 				"source": [
 					"1 + 1"
 				],
-				"execution_count": null
+				"execution_count": 1
 			}
 		]
 	}
