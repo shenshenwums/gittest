@@ -2,7 +2,7 @@
 	"name": "Dataflow2",
 	"properties": {
 		"folder": {
-			"name": "testfolder"
+			"name": "testfolder2"
 		},
 		"type": "MappingDataFlow",
 		"typeProperties": {
