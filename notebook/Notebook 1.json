@@ -22,6 +22,10 @@
 		},
 		"metadata": {
 			"saveOutput": true,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
 			"language_info": {
 				"name": "python"
 			},
@@ -49,7 +53,7 @@
 					"a = 1 + 1\r\n",
 					"b = 2"
 				],
-				"execution_count": null
+				"execution_count": 1
 			}
 		]
 	}
