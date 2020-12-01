@@ -28,17 +28,10 @@
 			"a365ComputeOptions": {
 				"id": "/subscriptions/be3e6d5c-f54f-474d-ae7e-128a5af5a691/resourceGroups/rgcicdbugbash/providers/Microsoft.Synapse/workspaces/shew1117test1/bigDataPools/shewtestsppool1",
 				"name": "shewtestsppool1",
-				"type": "Spark",
-				"endpoint": "https://shew1117test1.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/shewtestsppool1",
 				"auth": {
 					"type": "AAD",
 					"authResource": "https://dev.azuresynapse.net"
-				},
-				"sparkVersion": "2.4",
-				"nodeCount": 10,
-				"cores": 4,
-				"memory": 28,
-				"automaticScaleJobs": false
+				}
 			},
 			"sessionKeepAliveTimeout": 30
 		},
@@ -47,7 +40,8 @@
 				"cell_type": "code",
 				"source": [
 					"a = 1 + 1\r\n",
-					"b = 2"
+					"b = 2\r\n",
+					"c = 3"
 				],
 				"execution_count": 1
 			}
