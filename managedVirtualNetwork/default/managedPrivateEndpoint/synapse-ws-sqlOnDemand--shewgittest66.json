@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--shewgittest66",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/00baffc3-c40a-4478-a424-4bdc9566c82a/resourceGroups/princegbugbash/providers/Microsoft.Synapse/workspaces/shewgittest66",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"shewgittest66-ondemand.5bb65db0-f37b-422f-96ae-67f3176f5739.sql.azuresynapse.net"
+		]
+	}
+}
